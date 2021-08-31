@@ -1,0 +1,19 @@
+{
+  "name": "studioyosepra-api",
+  "version": "1.0.0",
+  "description": "StudioYosepRA API.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YosepRA/studioyosepra-api.git"
+  },
+  "author": "Yosep Ryan Agusta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YosepRA/studioyosepra-api/issues"
+  },
+  "homepage": "https://github.com/YosepRA/studioyosepra-api#readme"
+}
