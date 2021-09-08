@@ -21,10 +21,10 @@ module.exports = {
       return res.status(500).json({
         success: false,
         code: error.code,
-        message: error.message,
+        message: 'Server error when sending email. Please try again later.',
       });
     }
 
-    return res.json({ success: true, message: 'Email sent.' });
+    return res.json({ success: true, message: 'Your email has been sent.' });
   },
 };
