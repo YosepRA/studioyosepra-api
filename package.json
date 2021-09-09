@@ -4,7 +4,8 @@
   "description": "StudioYosepRA API.",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon -w .env -w . app.js"
+    "dev": "nodemon -w .env -w . app.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
